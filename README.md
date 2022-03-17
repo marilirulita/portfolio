@@ -1,2 +1,2 @@
-# portfolio
+# Portfolio
 Web developer programming portfolio
