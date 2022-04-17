@@ -9,16 +9,21 @@ const Navbar = () => {
   const links = [
     {
       id: 1,
+      path: '/',
+      text: 'Home',
+    },
+    {
+      id: 2,
       path: '/about',
       text: 'About',
     },
     {
-      id: 2,
+      id: 3,
       path: '/projects',
       text: 'Projects',
     },
     {
-      id: 3,
+      id: 4,
       path: '/contact',
       text: 'Contact',
     },
@@ -51,7 +56,7 @@ const Navbar = () => {
       </button>
       <div className={`menuNav ${navbarOpen ? ' showMenu' : ''}`}>
         <Link to="/" onClick={() => closeMenu()} className="iconLogo">
-          Icon logo
+        Mar Bautista
         </Link>
         <ul>
           {links.map((link) => (
@@ -66,9 +71,9 @@ const Navbar = () => {
           ))}
         </ul>
         <ul>
-          <li><a href="/">Github</a></li>
-          <li><a href="/">Linkedin</a></li>
-          <li><a href="/">Twitter</a></li>
+          <li><a href="https://github.com/marilirulita" target="_blank">Github</a></li>
+          <li><a href="https://www.linkedin.com/in/marbautista" target="_blank">Linkedin</a></li>
+          <li><a href="https://twitter.com/marylirulita" target="_blank">Twitter</a></li>
         </ul>
       </div>
     </nav>
