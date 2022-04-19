@@ -1,7 +1,9 @@
+import Container from 'react-bootstrap/Container';
+
 const Home = () => (
   <div class="intro-header">
   <div class="bg-overlay">
-    <div class="container">
+    <Container>
       <div class="row">
         <div class="col-lg-12">
           <div class="intro-message">
@@ -29,9 +31,8 @@ const Home = () => (
             </ul>
           </div>
         </div>
-      </div>
-
-    </div>
+        </div>
+      </Container>
   </div>
 </div>
 );

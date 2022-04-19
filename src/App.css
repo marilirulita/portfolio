@@ -5,69 +5,73 @@
 }
 
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
+  /* font-family: "Segoe UI", Arial, sans-serif; */
   line-height: 1.4;
   color: #444;
   background: #fff;
   height: 100vh;
 }
 
-.container {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.main_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
 }
 
-.inner {
-  width: 100%;
-  padding: 8rem 10px 4rem;
-}
 
-.form-container {
+/* .form-container {
   width: 100%;
   margin-bottom: 20px;
   display: flex;
   border-radius: calc(0.5 * 100px);
   box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.38);
   justify-content: space-evenly;
-}
+} */
 
-.input-text {
+/* .input-text {
   font-size: 1rem;
   font-weight: 400;
   width: 85%;
   padding-right: 5px;
   padding-left: 10px;
   border-radius: calc(0.5 * 100px);
-}
+} */
 
-.input-text::placeholder {
+/* .input-text::placeholder {
   color: #000;
-}
+} */
 
-.input-submit {
+/* .input-submit {
   background: transparent;
   color: #5b5b5b;
   text-transform: capitalize;
   cursor: pointer;
   font-weight: 600;
   margin-right: 10px;
-}
+} */
 
-.input-text,
+/* .input-text,
 .input-submit {
   height: 45px;
   outline: none;
   border: none;
-}
+} */
 
-.active-link {
+/* .active-link {
   color: orangered;
   text-decoration: underline;
-}
+} */
 
 /* sidebar Nav */
 
@@ -174,24 +178,6 @@ a {
 }
 
 /* code from portfolio, divide between sections: navbar, home, etc */
-
-body,
-html {
-    width: 100%;
-    height: 100%;
-    
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-}
 
 .topnav {
     font-size: 16px;
