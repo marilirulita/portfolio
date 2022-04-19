@@ -1,34 +1,33 @@
-const Footer = () => {
-  return (
-    <footer>
+const Footer = () => (
+  <footer>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="list-inline">
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-12">
+          <ul className="list-inline">
             <li>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
-            <li class="footer-menu-divider">&sdot;</li>
+            <li className="footer-menu-divider">&sdot;</li>
             <li>
               <a href="#about">About</a>
             </li>
-            <li class="footer-menu-divider">&sdot;</li>
+            <li className="footer-menu-divider">&sdot;</li>
             <li>
               <a href="#portfolio">Portfolio</a>
             </li>
-            <li class="footer-menu-divider">&sdot;</li>
+            <li className="footer-menu-divider">&sdot;</li>
             <li>
               <a href="#contact">Contact</a>
             </li>
           </ul>
-          <p class="copyright text-muted small">Copyright &copy; Mar Bautista Web Developer Freelance 2022. All Rights Reserved
+          <p className="copyright text-muted small">
+            Copyright &copy; Mar Bautista Web Developer Freelance 2022. All Rights Reserved
           </p>
         </div>
       </div>
     </div>
   </footer>
-  )
-};
+);
 
 export default Footer;
