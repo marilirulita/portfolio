@@ -1,15 +1,19 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
+import Photo from '../pictures/photomine.jpg';
+import '../styles/about.css';
 
 const About = () => (
-  <div className="about__content">
     <div className="content-section-a">
       <div className="bg-overlay2">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-5 col-sm-6">
-
-              <div className="clearfix">
-                <h2 className="section-heading">Web Developer.</h2>
+        <Container>
+          <div className="intro-message">
+          <Row>
+            <Col lg={5} sm={6}>
+                <h2 className="section-heading">Mar Bautista.</h2>
                 <p className="lead">
                   I&apos;m a self taught web developer based in Mexico.
                   I&apos;m currently a Freelancer developer open to new
@@ -32,22 +36,16 @@ const About = () => (
                   My main goal in life is to use software engineering to create
                   awesome apps and make the life of many people easier.
                 </p>
-              </div>
-              <div className="col-lg-5 col-lg-offset-2 col-sm-6 collapse navbar-collapse">
-                <img
-                  className="img-circle img-responsive"
-                  src="./photomine.jpg"
-                  alt=""
-                  width="300px"
-                />
-              </div>
-            </div>
+            </Col>
+          <Col lg={5} sm={6} className="d-flex justify-content-center">
+                <Image fluid className='rounded-circle img-circle' src={Photo} />
+            </Col>
 
+          </Row>
           </div>
-        </div>
+        </Container>
       </div>
     </div>
-  </div>
 );
 
 export default About;

@@ -1,26 +1,19 @@
 .intro-header { 
   text-align: center;
-  /* background: url('https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg') no-repeat center center fixed; */
-  /* background-size: cover; */
   background: rgb(218, 24, 24);
-  background: linear-gradient(0deg, rgb(218, 24, 24) 31%, rgb(212, 209, 18) 100%);
+  background: linear-gradient(135deg, #f06966 31%, #fad6a6 100%);
 }
 
 .bg-overlay {
 background:rgba(0,0,0, 0.3);
 }
 
-.intro-message {
-  /* position: relative; */
-  padding-top: 20%;
-  padding-bottom: 20%;
-}
-
-/*Big header*/
-.intro-message > h1 {
+.intro-message h1 {
   text-shadow: 2px 1px 2px #000;
-  font-size: 5em;
-  color: rgba(255, 255, 255, 0.7);
+  font-size: 6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #ececec;
 }
 
 /*small header*/
