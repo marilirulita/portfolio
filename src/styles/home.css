@@ -65,3 +65,21 @@ border: 1px outset rgba(255, 255, 255, 0.2);
 box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 width: 100%;
 }
+
+/* social buttons */
+.btn {
+  width: 100%;
+  color: #000 !important;
+  border: 2px outset rgba(0, 0, 0, 0.9) !important;
+  background-color: #C0C0C0 !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+  transition: 0.2s !important;
+}
+
+.btn:hover {
+	color: #fff !important;
+  background: rgba(0,0,0, 0.9) !important;
+  transform:scale(1.1);
+}
