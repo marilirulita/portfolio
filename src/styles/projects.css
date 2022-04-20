@@ -1,0 +1,97 @@
+section {
+  color: black;
+  background: #f06966;
+  background: linear-gradient(45deg, #f06966, #fad6a6);
+}
+
+#below-section {
+  color: #000;
+}
+
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+  border: 1px outset rgba(255, 255, 255, 0.6);
+}
+
+.portfolio-element {
+  display: flex;
+  padding: 25px 0;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.top-portafolio-element {
+  display: flex;
+  flex: 3 1;
+}
+
+#portfolio .portfolio-item:hover {
+  transition: 0.5s;
+  box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(0, 0, 0, .7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s,
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(0,0,0, 0.8);
+  text-align: center;
+  padding: 25px 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  color: #fff;
+  text-transform: none;
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  margin: 0;
+}
+
+#small-text {
+  color: white;
+}
+
+#portfolio .portfolio-item .portfolio-caption a {
+  font-size: 18px;
+  color: #817e7e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption a:hover {
+  color: #dbd4d4;
+}
+
+.img-fluid {
+  height: 100% !important;
+}

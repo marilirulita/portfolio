@@ -130,6 +130,10 @@ li {
   padding-bottom: 20%;
 }
 
+.bg-overlay {
+  background:rgba(0,0,0, 0.3);
+}
+
 /* about page */
 .about__list {
   list-style: none;
@@ -223,20 +227,6 @@ color: #000;
 
 
 /* Portfolio section*/
-section {
-  color: black;
-  /* background: url('https://68.media.tumblr.com/d3fd545cd977a174beef12c1106880bf/tumblr_nt505iKkul1ud7rr3o1_1280.jpg') no-repeat center center fixed;
-  background-size: cover; */
-  background-color: #e92a6a;
-}
-
- #below-section {
-  color: #000;
-}
-
-#small-text {
-  color: white;
-}
 
 /*.portfolio-item {
   overflow: hidden;
@@ -245,39 +235,6 @@ section {
   height: 308px;
 }*/
 /*Portfolio items*/
-
-#portfolio .portfolio-item {
-  margin: 0 0 15px;
-  right: 0;
-  border: 1px outset rgba(255, 255, 255, 0.6);
-}
-
-#portfolio .portfolio-item:hover {
-  transition: 0.5s;
-  box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
-}
-
-#portfolio .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(0, 0, 0, .7);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all ease .5s;
-  -webkit-transition: all ease .5s;
-  -moz-transition: all ease .5s,
-}
-
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1;
-}
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
@@ -299,26 +256,8 @@ section {
   margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
-  margin: 0 auto;
-  background-color: rgba(0,0,0, 0.8);
-  text-align: center;
-  padding: 25px;
-}
 
-#portfolio .portfolio-item .portfolio-caption h4 {
-  color: #fff;
-  text-transform: none;
-  margin: 0;
-}
 
-#portfolio .portfolio-item .portfolio-caption p {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 13px;
-  margin: 0;
-}
 
 #portfolio * {
   z-index: 2;

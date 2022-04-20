@@ -8,7 +8,7 @@ import '../styles/about.css';
 
 const About = () => (
   <div className="content-section-a">
-    <div className="bg-overlay2">
+    <div className="bg-overlay">
       <Container>
         <div className="intro-message">
               <Image fluid className='rounded-circle img-circle' src={Photo} />
