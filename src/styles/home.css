@@ -1,11 +1,7 @@
-.intro-header { 
+.intro-header {
   text-align: center;
   background: #f06966;
   background: linear-gradient(135deg, #f06966 31%, #fad6a6 100%);
-}
-
-.bg-overlay {
-background:rgba(0,0,0, 0.3);
 }
 
 .intro-message h1 {
@@ -16,47 +12,47 @@ background:rgba(0,0,0, 0.3);
   color: #ececec;
 }
 
-/*small header*/
+/* small header */
 .intro-message > h3 {
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   color: black;
 }
 
 .intro-divider {
   width: 400px;
   border-top: 1px solid #f8f8f8;
-  border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-@media(max-width:767px) {
+@media (max-width: 767px) {
   .intro-message {
-      padding-bottom: 15%;
+    padding-bottom: 15%;
   }
 
   .intro-message > h1 {
-      font-size: 3em;
+    font-size: 3em;
   }
 
   ul.intro-social-buttons > li {
-      display: block;
-      margin-bottom: 20px;
-      padding: 0;
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
   }
 
   ul.intro-social-buttons > li:last-child {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   .intro-divider {
-      width: 100%;
+    width: 100%;
   }
 }
 
-/*line*/
+/* line */
 hr.intro-divider {
-border: 1px outset rgba(255, 255, 255, 0.2);
-box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-width: 100%;
+  border: 1px outset rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  width: 100%;
 }
 
 /* social buttons */
@@ -64,15 +60,15 @@ width: 100%;
   width: 100%;
   color: #000 !important;
   border: 2px outset rgba(0, 0, 0, 0.9) !important;
-  background-color: #C0C0C0 !important;
-  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
-  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  background-color: #c0c0c0 !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 20);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   letter-spacing: 2px;
   transition: 0.2s !important;
 }
 
 .btn:hover {
-	color: #fff !important;
-  background: rgba(0,0,0, 0.9) !important;
+  color: #fff !important;
+  background: rgba(0, 0, 0, 0.9) !important;
   transform: scale(1.1);
 }

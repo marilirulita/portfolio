@@ -22,11 +22,6 @@ const Navbar = () => {
       path: '/projects',
       text: 'Projects',
     },
-    {
-      id: 4,
-      path: '/contact',
-      text: 'Contact',
-    },
   ];
 
   const handleToggle = () => {
@@ -49,7 +44,7 @@ const Navbar = () => {
             )
             : (
               <FiMenu
-                style={{ color: '#7b7b7b', width: '40px', height: '40px' }}
+                style={{ color: '#fff', width: '40px', height: '40px' }}
               />
             )
         }

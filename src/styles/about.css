@@ -4,17 +4,17 @@
 }
 
 .bg-overlay2 {
-  background:rgba(0,0,0, 0.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 
-/*profile picture*/
+/* profile picture */
 .img-circle {
   width: 250px;
   height: 250px !important;
   float: left;
   margin: 0 15px 15px 0;
   border: 1px outset rgba(255, 255, 255, 0.3);
-  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
 h2.section-heading {
@@ -30,14 +30,14 @@ h2.section-heading {
   font-weight: 600;
 }
 
-  .content-section-a p {
+.content-section-a p {
   font-size: 18px;
-   font-weight: bold;
-  }
+  font-weight: bold;
+}
 
 .content-section-a p a {
   font-size: 18px;
-  color:rgba(24,39,40, 0.8);
+  color: rgba(24, 39, 40, 0.8);
   font-weight: bold;
   text-decoration: none;
 }

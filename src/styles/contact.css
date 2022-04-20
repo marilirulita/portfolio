@@ -1,0 +1,7 @@
+.banner {
+  /* background: url('https://68.media.tumblr.com/ac46aa24b44b5036e9200abb71f810d9/tumblr_nt5vzxV6Us1ud7rr3o1_1280.jpg') no-repeat center center fixed;
+  background-size: cover; */
+  text-align: center;
+  background: #f06966;
+  background: linear-gradient(225deg, #f06966 31%, #fad6a6 100%);
+}
