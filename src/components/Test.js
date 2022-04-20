@@ -11,31 +11,36 @@ const About = () => (
     <div className="bg-overlay2">
       <Container>
         <div className="intro-message">
+          <Row>
+            <Col>
               <Image fluid className='rounded-circle img-circle' src={Photo} />
-         
+              <div>
               <h2 className="section-heading">Mar Bautista.</h2>
-              <p>
+              <p className="lead">
               I&apos;m a self taught web developer based in Mexico.
               I&apos;m currently a Freelancer developer open to new
               challenges improving open-source projects and remote work.
               I am focuse in help startups take their products from concept
               to launch developing web pages and apps for small bussines management.
-              You can see my <a target="_blank" href="www.facebook.com">facebook page</a> for more details.
+              You can see my
+              <a className="link" target="_blank" href="www.facebook.com">facebook page</a>
+              for more details.
             </p>
-            <h4>Languages and Frameworks:</h4>
-            <p>
+            <h3>Competences:</h3>
+            <p className="lead">
+              Languages and Frameworks:
               Javascript, HTML5, CSS3, Bootstrap3, React, Redux
-            </p>
-            <h4>Tools & expertise:</h4>
-            <p>
-            Git, Responsive Web Design, Agile Methodologies,
+              Tools & expertise:
+              Git, Responsive Web Design, Agile Methodologies,
               Generalist.
             </p>
-            <p>
+            <p className="lead">
               My main goal in life is to use software engineering to create
               awesome apps and make the life of many people easier.
             </p>
-            
+              </div>
+            </Col>
+          </Row>
         </div>
       </Container>
     </div>

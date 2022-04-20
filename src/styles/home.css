@@ -1,6 +1,6 @@
 .intro-header { 
   text-align: center;
-  background: rgb(218, 24, 24);
+  background: #f06966;
   background: linear-gradient(135deg, #f06966 31%, #fad6a6 100%);
 }
 
@@ -19,7 +19,7 @@ background:rgba(0,0,0, 0.3);
 /*small header*/
 .intro-message > h3 {
   text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
-color: black;
+  color: black;
 }
 
 .intro-divider {

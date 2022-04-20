@@ -131,7 +131,22 @@ li {
 }
 
 /* about page */
+.about__list {
+  list-style: none;
+  flex: 2;
+  margin-right: 15px;
+}
 
+.about__list a {
+  color: #9f9f9f;
+  text-transform: capitalize;
+  padding: 20px 0;
+  font-weight: 600;
+}
+
+.about__list a:hover {
+  color: #000;
+}
 
 .main__content {
   flex: 7;
@@ -193,12 +208,6 @@ color: #000;
   color: #000;
 }
 
-.lead {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-
   /*self-taught*/
 .container .link {
   color: rgb(255, 255, 255);
@@ -210,22 +219,6 @@ color: #000;
   color: rgb(0,0,128);
   font-weight: bold;
   font-size: 22.5px;
-}
-
-h2.section-heading {
-    font-size: 3em;
-    color: rgba(0, 0, 0, 0.9);
-}
-
-  /*text*/
- .content-section-a p {
-    font-size: 22px;
-   font-weight: bold;
-    color: #000;
-  }
-.content-section-a p a {
-  color: silver;
-  font-weight: bold;
 }
 
 
