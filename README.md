@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Netlify Link]()
+[Netlify Link](https://6261ca480645b6572964c6f9--polite-gnome-0a460c.netlify.app/)
 
 
 ## Getting Started
