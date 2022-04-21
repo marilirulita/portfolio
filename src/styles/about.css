@@ -1,0 +1,64 @@
+.content-section-a {
+  background: #f06966;
+  background: linear-gradient(135deg, #fad6a6, #f06966);
+}
+
+.bg-overlay2 {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* profile picture */
+.img-circle {
+  width: 250px;
+  height: 250px !important;
+  float: left;
+  margin: 0 15px 15px 0;
+  border: 1px outset rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+h2.section-heading {
+  font-size: 3em;
+  text-shadow: 2px 1px 2px #000;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #ececec;
+}
+
+.content-section-a h4 {
+  color: #020202;
+  font-weight: 600;
+}
+
+.content-section-a p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.content-section-a p a {
+  font-size: 18px;
+  color: rgba(24, 39, 40, 0.8);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content-section-a a:hover {
+  color: #9f9f9f;
+}
+
+@media (max-width: 500px) {
+  .img-circle {
+    float: none;
+    width: 150px;
+    height: 150px !important;
+  }
+
+  .content-section-a {
+    text-align: center;
+  }
+
+  .content-section-a p,
+  .content-section-a h4 {
+    text-align: justify;
+  }
+}
