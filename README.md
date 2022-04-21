@@ -1,5 +1,5 @@
 # Portfolio
-> Personal Web developer programming portfolio. This project was based on [this Codepen](https://codepen.io/ThiagoFerreir4/pen/eNMxEp)
+> Personal Web developer programming portfolio. The design and basic structure of this project was based on [this Codepen](https://codepen.io/ThiagoFerreir4/pen/eNMxEp)
 
 ## Built With
 
