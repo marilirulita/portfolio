@@ -57,10 +57,9 @@ const Projects = () => (
             <Col lg={3} sm={6} className="portfolio-item">
               <div className="portfolio-element">
                 <div className="top-portafolio-element">
-                  <a
-                    href="https://priceless-shannon-9c10ff.netlify.app/"
-                    className="portfolio-link"
+                  <a href="https://priceless-shannon-9c10ff.netlify.app/"
                     target="_blank"
+                    className="portfolio-link"
                     data-toggle="modal"
                     rel="noreferrer"
                   >
@@ -69,18 +68,21 @@ const Projects = () => (
                         <FaFirstOrder size="100px" />
                       </div>
                     </div>
+
                     <Image
                       fluid
                       src={ToDoList}
                       alt="To Do List project Image"
-                      className="img-responsive"
                     />
                   </a>
                 </div>
                 <div className="portfolio-caption">
                   <h4>To Do List</h4>
                   <p id="small-text" className="text-muted">JavaScript, CSS, HTML</p>
-                  <a href="https://github.com/marilirulita/ToDoList" target="_blank" rel="noreferrer">Github Repository</a>
+                  <a href="https://github.com/marilirulita/ToDoList"
+                  target="_blank" rel="noreferrer">
+                    Github Repository
+                  </a>
                 </div>
               </div>
             </Col>
