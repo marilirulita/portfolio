@@ -46,7 +46,6 @@ section {
   opacity: 0;
   transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s,;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -92,7 +91,7 @@ section {
   color: #dbd4d4;
 }
 
-.img-fluid {
+.top-portafolio-element .img-fluid {
   width: 100% !important;
   height: 100% !important;
 }
