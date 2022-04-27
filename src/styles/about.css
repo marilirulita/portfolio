@@ -37,13 +37,13 @@ h2.section-heading {
 
 .content-section-a p a {
   font-size: 18px;
-  color: rgba(24, 39, 40, 0.8);
+  color: #9f9f9f;
   font-weight: bold;
   text-decoration: none;
 }
 
 .content-section-a a:hover {
-  color: #9f9f9f;
+  color: rgba(24, 39, 40, 0.8);
 }
 
 @media (max-width: 500px) {

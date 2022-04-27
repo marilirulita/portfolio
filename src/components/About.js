@@ -20,7 +20,7 @@ const About = () => (
             to launch developing web pages and apps for small bussines management.
             You can see my
             {' '}
-            <a target="_blank" href="www.facebook.com">facebook page</a>
+            <a target="_blank" href="https://www.facebook.com/Desarrollo-Web-Freelancer-104683862235097/" rel="noreferrer">facebook page</a>
             {' '}
             for more details.
           </p>

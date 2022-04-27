@@ -8,11 +8,7 @@ const Contact = () => (
           <h2 className="connect">
             Check out some of my latest work at
             {' '}
-            <a
-              className="link-footer"
-              target="_blank"
-              href="www.facebook.com"
-            >
+            <a className="link-footer" target="_blank" href="https://www.facebook.com/Desarrollo-Web-Freelancer-104683862235097/" rel="noreferrer">
               Mar Bautistas Facebook Page.
             </a>
           </h2>
