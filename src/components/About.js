@@ -18,15 +18,10 @@ const About = () => (
             challenges improving open-source projects and remote work.
             I am focuse in help startups take their products from concept
             to launch developing web pages and apps for small bussines management.
-            You can see my
-            {' '}
-            <a target="_blank" href="www.facebook.com">facebook page</a>
-            {' '}
-            for more details.
           </p>
           <h4>Languages and Frameworks:</h4>
           <p>
-            Javascript, HTML5, CSS3, Bootstrap3, React, Redux
+            Javascript, HTML5, CSS3, Bootstrap3, React, Redux, Ruby, Ruby on Rails, SQL.
           </p>
           <h4>Tools & expertise:</h4>
           <p>

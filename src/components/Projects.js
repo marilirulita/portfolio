@@ -3,10 +3,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import { FaFirstOrder } from 'react-icons/fa';
-import Bookstore from '../pictures/screenshot_bookstore.png';
-import ToDoList from '../pictures/to-do-list-screenshot.png';
+import Financial from '../pictures/financialistic.png';
+import WebApp from '../pictures/web-app.png';
 import MathMag from '../pictures/mathMagicina-screenshot.png';
-import Space from '../pictures/space-travelers__rockets.png';
 import '../styles/projects.css';
 
 const Projects = () => (
@@ -25,7 +24,7 @@ const Projects = () => (
               <div className="portfolio-element">
                 <div className="top-portafolio-element">
                   <a
-                    href="https://gorgeous-crepe-fc5afc.netlify.app/"
+                    href="https://tourify-app.netlify.app/"
                     target="_blank"
                     className="portfolio-link"
                     data-toggle="modal"
@@ -39,15 +38,15 @@ const Projects = () => (
 
                     <Image
                       fluid
-                      src={Bookstore}
-                      alt="Bookstore project Image"
+                      src="https://i.imgur.com/Gus9sKi.png"
+                      alt="Tourify project Image"
                     />
                   </a>
                 </div>
                 <div className="portfolio-caption">
-                  <h4>Bookstore Project</h4>
-                  <p id="small-text" className="text-muted">React, Redux, CSS</p>
-                  <a href="https://github.com/marilirulita/bookstore" target="_blank" rel="noreferrer">
+                  <h4>Tourify Project</h4>
+                  <p id="small-text" className="text-muted">React, Redux, CSS, Ruby on Rails, SQL</p>
+                  <a href="https://github.com/marilirulita/Booking-Tours-Front-End" target="_blank" rel="noreferrer">
                     Github Repository
                   </a>
                 </div>
@@ -58,7 +57,7 @@ const Projects = () => (
               <div className="portfolio-element">
                 <div className="top-portafolio-element">
                   <a
-                    href="https://priceless-shannon-9c10ff.netlify.app/"
+                    href="https://blooming-tundra-40125.herokuapp.com/"
                     target="_blank"
                     className="portfolio-link"
                     data-toggle="modal"
@@ -72,16 +71,16 @@ const Projects = () => (
 
                     <Image
                       fluid
-                      src={ToDoList}
-                      alt="To Do List project Image"
+                      src={Financial}
+                      alt="Financialistic project Image"
                     />
                   </a>
                 </div>
                 <div className="portfolio-caption">
-                  <h4>To Do List</h4>
-                  <p id="small-text" className="text-muted">JavaScript, CSS, HTML</p>
+                  <h4>Financial App</h4>
+                  <p id="small-text" className="text-muted">Ruby, Ruby on Rails, SQL</p>
                   <a
-                    href="https://github.com/marilirulita/ToDoList"
+                    href="https://github.com/marilirulita/Financialistic"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -125,7 +124,7 @@ const Projects = () => (
               <div className="portfolio-element">
                 <div className="top-portafolio-element">
                   <a
-                    href="https://team-space-ship.netlify.app/"
+                    href="https://622d22073bf38e6536dab9f0--priceless-borg-af9da9.netlify.app/"
                     target="_blank"
                     className="portfolio-link"
                     data-toggle="modal"
@@ -138,15 +137,15 @@ const Projects = () => (
                     </div>
                     <Image
                       fluid
-                      src={Space}
-                      alt="Space Travelers project Image"
+                      src={WebApp}
+                      alt="Metrics Webapp project Image"
                     />
                   </a>
                 </div>
                 <div className="portfolio-caption">
-                  <h4>Space Travelers</h4>
+                  <h4>Metrics Webapp</h4>
                   <p id="small-text" className="text-muted">React, Redux, CSS</p>
-                  <a href="https://github.com/aimemalaika/space-travelers" target="_blank" rel="noreferrer">Github Repository</a>
+                  <a href="https://github.com/marilirulita/metrics-webapp" target="_blank" rel="noreferrer">Github Repository</a>
                 </div>
               </div>
             </Col>
