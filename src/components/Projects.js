@@ -37,7 +37,7 @@ const Projects = () => (
                     </div>
 
                     <Image
-                      fluid
+                      className="card-img"
                       src="https://i.imgur.com/Gus9sKi.png"
                       alt="Tourify project Image"
                     />
@@ -70,7 +70,7 @@ const Projects = () => (
                     </div>
 
                     <Image
-                      fluid
+                      className="card-img"
                       src={Financial}
                       alt="Financialistic project Image"
                     />
@@ -106,7 +106,7 @@ const Projects = () => (
                       </div>
                     </div>
                     <Image
-                      fluid
+                      className="card-img"
                       src={MathMag}
                       alt="Math Magician project Image"
                     />
@@ -136,7 +136,7 @@ const Projects = () => (
                       </div>
                     </div>
                     <Image
-                      fluid
+                      className="card-img"
                       src={WebApp}
                       alt="Metrics Webapp project Image"
                     />
