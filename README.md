@@ -1,4 +1,5 @@
 # Portfolio
+
 > Personal Web developer programming portfolio. The design and basic structure of this project was based on [this Codepen](https://codepen.io/ThiagoFerreir4/pen/eNMxEp)
 
 ## Built With
@@ -9,7 +10,8 @@
 
 ## Live Demo
 
-[Netlify Link](https://6261ca480645b6572964c6f9--polite-gnome-0a460c.netlify.app/)
+
+[Netlify Link](https://polite-gnome-0a460c.netlify.app)
 
 
 ## Getting Started
@@ -30,7 +32,7 @@ To get a local copy up and running follow these simple example steps.
   npm install
   ```
   
-- From the root folder run start command to see the project on browser: 
+- From the root folder run start command to see the project on browser:
 
   ```
   npm start
