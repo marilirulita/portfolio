@@ -1,6 +1,7 @@
 .content-section-a {
   background: #f06966;
   background: linear-gradient(135deg, #fad6a6, #f06966);
+  width: 100%;
 }
 
 .bg-overlay2 {
