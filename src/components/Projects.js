@@ -16,11 +16,10 @@ const Projects = () => (
           <Row>
             <Col lg={12} className="text-center">
               <h2 className="section-heading">Projects</h2>
-              <h3 id="below-section">These are some of my projects.</h3>
             </Col>
           </Row>
           <Row>
-            <Col lg={3} sm={6} className="portfolio-item">
+            <Col xl={3} lg={4} sm={6} className="portfolio-item">
               <div className="portfolio-element">
                 <div className="top-portafolio-element">
                   <a
@@ -37,7 +36,7 @@ const Projects = () => (
                     </div>
 
                     <Image
-                      fluid
+                      className="card-img"
                       src="https://i.imgur.com/Gus9sKi.png"
                       alt="Tourify project Image"
                     />
@@ -53,7 +52,7 @@ const Projects = () => (
               </div>
             </Col>
 
-            <Col lg={3} sm={6} className="portfolio-item">
+            <Col xl={3} lg={4} sm={6} className="portfolio-item">
               <div className="portfolio-element">
                 <div className="top-portafolio-element">
                   <a
@@ -70,7 +69,7 @@ const Projects = () => (
                     </div>
 
                     <Image
-                      fluid
+                      className="card-img"
                       src={Financial}
                       alt="Financialistic project Image"
                     />
@@ -90,7 +89,7 @@ const Projects = () => (
               </div>
             </Col>
 
-            <Col lg={3} sm={6} className="portfolio-item">
+            <Col xl={3} lg={4} sm={6} className="portfolio-item">
               <div className="portfolio-element">
                 <div className="top-portafolio-element">
                   <a
@@ -106,7 +105,7 @@ const Projects = () => (
                       </div>
                     </div>
                     <Image
-                      fluid
+                      className="card-img"
                       src={MathMag}
                       alt="Math Magician project Image"
                     />
@@ -120,7 +119,7 @@ const Projects = () => (
               </div>
             </Col>
 
-            <Col lg={3} sm={6} className="portfolio-item">
+            <Col xl={3} lg={4} sm={6} className="portfolio-item">
               <div className="portfolio-element">
                 <div className="top-portafolio-element">
                   <a
@@ -136,7 +135,7 @@ const Projects = () => (
                       </div>
                     </div>
                     <Image
-                      fluid
+                      className="card-img"
                       src={WebApp}
                       alt="Metrics Webapp project Image"
                     />

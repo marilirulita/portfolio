@@ -2,6 +2,7 @@ section {
   color: black;
   background: #f06966;
   background: linear-gradient(45deg, #f06966, #fad6a6);
+  width: 100%;
 }
 
 #below-section {
@@ -91,7 +92,8 @@ section {
   color: #dbd4d4;
 }
 
-.top-portafolio-element .img-fluid {
-  width: 100% !important;
-  height: 100% !important;
+.card-img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
 }
